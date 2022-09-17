@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=1920 height=1080 style="width: 1920px; height: 1080px; background: #828080"></canvas>
-    <script src="Build/SKINging_webgl.loader.js"></script>
+    <script src="Build/SKINging_webgl_2.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/SKINging_webgl.data",
-        frameworkUrl: "Build/SKINging_webgl.framework.js",
-        codeUrl: "Build/SKINging_webgl.wasm",
+        dataUrl: "Build/SKINging_webgl_2.data",
+        frameworkUrl: "Build/SKINging_webgl_2.framework.js",
+        codeUrl: "Build/SKINging_webgl_2.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DM",
         productName: "SKINging",
